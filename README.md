@@ -54,6 +54,17 @@ Notes:
 - Backend must be running before frontend
 - Make sure database is configured properly
 - If ports are busy, change them
+- Database Setup:
+
+Make sure PostgreSQL is running.
+
+Update database configuration in:
+Backend/src/main/resources/application.properties
+
+Example:
+spring.datasource.url=jdbc:postgresql://localhost:5432/taskdb
+spring.datasource.username=your_username
+spring.datasource.password=your_password
 
 Author:
 Pawan Bhandari
