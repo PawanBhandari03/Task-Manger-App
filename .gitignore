@@ -1,0 +1,17 @@
+# Node (frontend)
+node_modules/
+dist/
+build/
+
+# Java (backend)
+target/
+
+# Env files
+.env
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
